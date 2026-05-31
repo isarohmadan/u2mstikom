@@ -1,0 +1,223 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram id="P8-Favorite" name="P 8.0 Favorite Saya">
+    <mxGraphModel dx="868" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Admin" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Administrator" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pengurus" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Pengurus" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Anggota" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Anggota" vertex="1">
+          <mxGeometry height="60" width="120" x="800" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P81" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="8.1&lt;br&gt;Request&lt;br&gt;favorite saya" vertex="1">
+          <mxGeometry height="100" width="100" x="250" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="P83" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="8.3&lt;br&gt;Toggle&lt;br&gt;bookmark topik" vertex="1">
+          <mxGeometry height="100" width="100" x="650" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="P82" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="8.2&lt;br&gt;Query&lt;br&gt;bookmarks user" vertex="1">
+          <mxGeometry height="100" width="100" x="450" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="P84" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="8.4&lt;br&gt;Tampilkan&lt;br&gt;daftar favorite" vertex="1">
+          <mxGeometry height="100" width="100" x="450" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="DS8" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" value="D8: Database Bookmarks&lt;br&gt;(bookmarks)" vertex="1">
+          <mxGeometry height="60" width="180" x="150" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="DS3" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" value="D3: Database Topics&lt;br&gt;(topics)" vertex="1">
+          <mxGeometry height="40" width="140" x="710" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="Admin" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;entryX=0.25;entryY=0;" target="P81" value="request_favorite">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="150" />
+              <mxPoint x="278" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="Pengurus" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;entryX=0.692;entryY=0.024;entryDx=0;entryDy=0;entryPerimeter=0;" target="P81" value="">
+          <mxGeometry relative="1" x="-0.1111" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="470" y="160" />
+              <mxPoint x="320" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_pPuHLQTEL1bugdT5OV-8" connectable="0" parent="e2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="request_favorite" vertex="1">
+          <mxGeometry relative="1" x="0.3436" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="Anggota" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;entryX=0.568;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" target="P81" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="130" />
+              <mxPoint x="307" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_pPuHLQTEL1bugdT5OV-10" connectable="0" parent="e3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="request_favorite" vertex="1">
+          <mxGeometry relative="1" x="-0.187" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="Admin" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;entryX=0.25;entryY=0;" target="P83" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="120" />
+              <mxPoint x="675" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_pPuHLQTEL1bugdT5OV-9" connectable="0" parent="e4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="toggle_bookmark" vertex="1">
+          <mxGeometry relative="1" x="-0.4132" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="Pengurus" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;entryX=0.5;entryY=0;" target="P83" value="toggle_bookmark">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="160" />
+              <mxPoint x="700" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="Anggota" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;entryX=0.75;entryY=0;" target="P83" value="toggle_bookmark">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="150" />
+              <mxPoint x="725" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="P81" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" target="P82" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_pPuHLQTEL1bugdT5OV-7" connectable="0" parent="e7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="request" vertex="1">
+          <mxGeometry relative="1" x="0.3005" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="P83" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;entryX=0.5;entryY=0;" target="DS3" value="">
+          <mxGeometry relative="1" x="0.0024" y="15" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="722" y="480" />
+              <mxPoint x="780" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_pPuHLQTEL1bugdT5OV-3" connectable="0" parent="e8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="read_topic" vertex="1">
+          <mxGeometry relative="1" x="-0.3095" y="3" as="geometry">
+            <mxPoint x="3" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="DS3" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;entryX=1;entryY=0.5;exitDx=0;exitDy=0;" target="P83" value="topic_data">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="P83" style="endArrow=classic;html=1;rounded=0;exitX=0.29;exitY=0.954;entryX=0.5;entryY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="DS8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="380" />
+              <mxPoint x="240" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_pPuHLQTEL1bugdT5OV-4" connectable="0" parent="e10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="write/delete_bookmark" vertex="1">
+          <mxGeometry relative="1" x="-0.2855" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="P83" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=1;entryY=0.5;" target="P82" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_pPuHLQTEL1bugdT5OV-2" connectable="0" parent="e11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="bookmark_toggled" vertex="1">
+          <mxGeometry relative="1" x="0.508" y="3" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="P82" style="endArrow=classic;html=1;rounded=0;exitX=0.04;exitY=0.703;entryX=0.75;entryY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="DS8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_pPuHLQTEL1bugdT5OV-6" connectable="0" parent="e12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="read_bookmarks" vertex="1">
+          <mxGeometry relative="1" x="-0.0994" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="DS8" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;entryX=0.25;entryY=0.75;" target="P82" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="195" y="485" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_pPuHLQTEL1bugdT5OV-5" connectable="0" parent="e13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="bookmark_data" vertex="1">
+          <mxGeometry relative="1" x="0.311" y="1" as="geometry">
+            <mxPoint x="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="P82" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="P84" value="bookmark_data">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="DS3" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="P84" value="">
+          <mxGeometry relative="1" x="-0.013" y="27" as="geometry">
+            <mxPoint x="-2" y="11" as="offset" />
+            <Array as="points">
+              <mxPoint x="745" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_pPuHLQTEL1bugdT5OV-1" connectable="0" parent="e15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="favorite_topics" vertex="1">
+          <mxGeometry relative="1" x="0.4874" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eList1" edge="1" parent="1" source="P84" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="Admin" value="list_favorite">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="800" />
+              <mxPoint x="40" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eList2" edge="1" parent="1" source="P84" style="endArrow=classic;html=1;rounded=0;exitX=0.033;exitY=0.291;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="Pengurus" value="list_favorite">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="780" />
+              <mxPoint x="410" y="85" />
+            </Array>
+            <mxPoint x="520" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eList3" edge="1" parent="1" source="P84" style="endArrow=classic;html=1;rounded=0;exitX=0.933;exitY=0.725;entryX=0.5;entryY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="Anggota" value="list_favorite">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="825" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

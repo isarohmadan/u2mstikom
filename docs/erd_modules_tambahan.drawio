@@ -1,0 +1,253 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram id="ERD-MissingParams" name="ERD Tambahan">
+    <mxGraphModel dx="1489" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ent_Lesson" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=26;" value="Lesson" vertex="1">
+          <mxGeometry height="80" width="180" x="400" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_Lesson_ID" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=1" value="&lt;u&gt;&lt;b&gt;id&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="63" width="124" x="428" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_Lesson_ID" edge="1" parent="1" source="Att_Lesson_ID" style="endArrow=none;html=1;rounded=0;" target="Ent_Lesson">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_Lesson_Title" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="title" vertex="1">
+          <mxGeometry height="63" width="124" x="250" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_Lesson_Title" edge="1" parent="1" source="Att_Lesson_Title" style="endArrow=none;html=1;rounded=0;" target="Ent_Lesson">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_Lesson_Desc" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="&lt;span style=&quot;border-bottom: 1px dotted&quot;&gt;description&lt;/span&gt;" vertex="1">
+          <mxGeometry height="63" width="124" x="220" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_Lesson_Desc" edge="1" parent="1" source="Att_Lesson_Desc" style="endArrow=none;html=1;rounded=0;" target="Ent_Lesson">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_Lesson_Cat" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="&lt;u&gt;&lt;b&gt;category_id&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="63" width="124" x="230" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_Lesson_Cat" edge="1" parent="1" source="Att_Lesson_Cat" style="endArrow=none;html=1;rounded=0;" target="Ent_Lesson">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_Lesson_File" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="file_path" vertex="1">
+          <mxGeometry height="63" width="124" x="380" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_Lesson_File" edge="1" parent="1" source="Att_Lesson_File" style="endArrow=none;html=1;rounded=0;" target="Ent_Lesson">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_Lesson_Type" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="file_type" vertex="1">
+          <mxGeometry height="63" width="124" x="510" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_Lesson_Type" edge="1" parent="1" source="Att_Lesson_Type" style="endArrow=none;html=1;rounded=0;" target="Ent_Lesson">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_Lesson_Pub" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="is_published" vertex="1">
+          <mxGeometry height="63" width="124" x="620" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_Lesson_Pub" edge="1" parent="1" source="Att_Lesson_Pub" style="endArrow=none;html=1;rounded=0;" target="Ent_Lesson">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ent_Quiz" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=26;" value="Quiz" vertex="1">
+          <mxGeometry height="80" width="180" x="900" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_Quiz_ID" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=1" value="&lt;u&gt;&lt;b&gt;id&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="63" width="124" x="928" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_Quiz_ID" edge="1" parent="1" source="Att_Quiz_ID" style="endArrow=none;html=1;rounded=0;" target="Ent_Quiz">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_Quiz_LessonID" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="&lt;u&gt;&lt;b&gt;lesson_id&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="63" width="124" x="750" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_Quiz_LessonID" edge="1" parent="1" source="Att_Quiz_LessonID" style="endArrow=none;html=1;rounded=0;" target="Ent_Quiz">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_Quiz_Title" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="title" vertex="1">
+          <mxGeometry height="63" width="124" x="1100" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_Quiz_Title" edge="1" parent="1" source="Att_Quiz_Title" style="endArrow=none;html=1;rounded=0;" target="Ent_Quiz">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_Quiz_Time" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="time_limit" vertex="1">
+          <mxGeometry height="63" width="124" x="1100" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_Quiz_Time" edge="1" parent="1" source="Att_Quiz_Time" style="endArrow=none;html=1;rounded=0;" target="Ent_Quiz">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_Quiz_Score" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="passing_score" vertex="1">
+          <mxGeometry height="63" width="124" x="1050" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_Quiz_Score" edge="1" parent="1" source="Att_Quiz_Score" style="endArrow=none;html=1;rounded=0;" target="Ent_Quiz">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rel_Lesson_Quiz" edge="1" parent="1" source="Ent_Lesson" style="endArrow=none;html=1;rounded=0;" target="Ent_Quiz" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ent_QuizQ" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=26;" value="QuizQuestion" vertex="1">
+          <mxGeometry height="80" width="180" x="900" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_QuizQ_ID" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=1" value="&lt;u&gt;&lt;b&gt;id&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="63" width="124" x="720" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_QuizQ_ID" edge="1" parent="1" source="Att_QuizQ_ID" style="endArrow=none;html=1;rounded=0;" target="Ent_QuizQ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_QuizQ_QuizID" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="&lt;u&gt;&lt;b&gt;quiz_id&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="63" width="124" x="928" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_QuizQ_QuizID" edge="1" parent="1" source="Att_QuizQ_QuizID" style="endArrow=none;html=1;rounded=0;" target="Ent_QuizQ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_QuizQ_Text" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="question" vertex="1">
+          <mxGeometry height="63" width="124" x="1052" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_QuizQ_Text" edge="1" parent="1" source="Att_QuizQ_Text" style="endArrow=none;html=1;rounded=0;" target="Ent_QuizQ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_QuizQ_Opts" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="options (a,b,c,d)" vertex="1">
+          <mxGeometry height="63" width="124" x="1110" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_QuizQ_Opts" edge="1" parent="1" source="Att_QuizQ_Opts" style="endArrow=none;html=1;rounded=0;" target="Ent_QuizQ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_QuizQ_Corr" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="correct_answer" vertex="1">
+          <mxGeometry height="63" width="124" x="928" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_QuizQ_Corr" edge="1" parent="1" source="Att_QuizQ_Corr" style="endArrow=none;html=1;rounded=0;" target="Ent_QuizQ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rel_Quiz_QuizQ" edge="1" parent="1" source="Ent_Quiz" style="endArrow=none;html=1;rounded=0;" target="Ent_QuizQ" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ent_QuizAtt" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=26;" value="UserQuizAttempt" vertex="1">
+          <mxGeometry height="80" width="220" x="1300" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_QuizAtt_ID" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=1" value="&lt;u&gt;&lt;b&gt;id&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="63" width="124" x="1348" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_QuizAtt_ID" edge="1" parent="1" source="Att_QuizAtt_ID" style="endArrow=none;html=1;rounded=0;" target="Ent_QuizAtt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_QuizAtt_UID" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="&lt;u&gt;&lt;b&gt;user_id&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="63" width="124" x="1550" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_QuizAtt_UID" edge="1" parent="1" source="Att_QuizAtt_UID" style="endArrow=none;html=1;rounded=0;" target="Ent_QuizAtt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_QuizAtt_Score" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="score" vertex="1">
+          <mxGeometry height="63" width="124" x="1550" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_QuizAtt_Score" edge="1" parent="1" source="Att_QuizAtt_Score" style="endArrow=none;html=1;rounded=0;" target="Ent_QuizAtt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rel_Quiz_Att" edge="1" parent="1" source="Ent_Quiz" style="endArrow=none;html=1;rounded=0;" target="Ent_QuizAtt" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ent_LessonProg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=26;" value="UserLessonProgress" vertex="1">
+          <mxGeometry height="80" width="220" x="400" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_LessonPr_ID" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=1" value="&lt;u&gt;&lt;b&gt;id&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="63" width="124" x="250" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_LessonPr_ID" edge="1" parent="1" source="Att_LessonPr_ID" style="endArrow=none;html=1;rounded=0;" target="Ent_LessonProg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_LessonPr_UID" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="&lt;u&gt;&lt;b&gt;user_id&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="63" width="124" x="250" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_LessonPr_UID" edge="1" parent="1" source="Att_LessonPr_UID" style="endArrow=none;html=1;rounded=0;" target="Ent_LessonProg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_LessonPr_Val" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="progress" vertex="1">
+          <mxGeometry height="63" width="124" x="448" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_LessonPr_Val" edge="1" parent="1" source="Att_LessonPr_Val" style="endArrow=none;html=1;rounded=0;" target="Ent_LessonProg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rel_Lesson_Prog" edge="1" parent="1" source="Ent_Lesson" style="endArrow=none;html=1;rounded=0;" target="Ent_LessonProg" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ent_DocT" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=26;" value="DocumentTemplate" vertex="1">
+          <mxGeometry height="80" width="220" x="400" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_DocT_ID" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=1" value="&lt;u&gt;&lt;b&gt;id&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="63" width="124" x="448" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_DocT_ID" edge="1" parent="1" source="Att_DocT_ID" style="endArrow=none;html=1;rounded=0;" target="Ent_DocT">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_DocT_Name" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="name" vertex="1">
+          <mxGeometry height="63" width="124" x="250" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_DocT_Name" edge="1" parent="1" source="Att_DocT_Name" style="endArrow=none;html=1;rounded=0;" target="Ent_DocT">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_DocT_Slug" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="&lt;span style=&quot;border-bottom: 1px dotted&quot;&gt;slug&lt;/span&gt;" vertex="1">
+          <mxGeometry height="63" width="124" x="220" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_DocT_Slug" edge="1" parent="1" source="Att_DocT_Slug" style="endArrow=none;html=1;rounded=0;" target="Ent_DocT">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ent_DocVer" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=26;" value="TemplateVersion" vertex="1">
+          <mxGeometry height="80" width="220" x="850" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_DocVer_ID" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=1" value="&lt;u&gt;&lt;b&gt;id&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="63" width="124" x="898" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_DocVer_ID" edge="1" parent="1" source="Att_DocVer_ID" style="endArrow=none;html=1;rounded=0;" target="Ent_DocVer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_DocVer_Ver" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="version_number" vertex="1">
+          <mxGeometry height="63" width="124" x="1100" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_DocVer_Ver" edge="1" parent="1" source="Att_DocVer_Ver" style="endArrow=none;html=1;rounded=0;" target="Ent_DocVer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_DocVer_File" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="file_path" vertex="1">
+          <mxGeometry height="63" width="124" x="1100" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_DocVer_File" edge="1" parent="1" source="Att_DocVer_File" style="endArrow=none;html=1;rounded=0;" target="Ent_DocVer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_DocVer_TID" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="&lt;u&gt;&lt;b&gt;template_id&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="63" width="124" x="720" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_DocVer_TID" edge="1" parent="1" source="Att_DocVer_TID" style="endArrow=none;html=1;rounded=0;" target="Ent_DocVer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rel_Doc_Ver" edge="1" parent="1" source="Ent_DocT" style="endArrow=none;html=1;rounded=0;" target="Ent_DocVer" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ent_DocLog" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=26;" value="TemplateLog" vertex="1">
+          <mxGeometry height="80" width="220" x="625" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_DocLog_ID" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=1" value="&lt;u&gt;&lt;b&gt;id&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="63" width="124" x="673" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_DocLog_ID" edge="1" parent="1" source="Att_DocLog_ID" style="endArrow=none;html=1;rounded=0;" target="Ent_DocLog">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_DocLog_UID" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="&lt;u&gt;&lt;b&gt;user_id&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="63" width="124" x="450" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_DocLog_UID" edge="1" parent="1" source="Att_DocLog_UID" style="endArrow=none;html=1;rounded=0;" target="Ent_DocLog">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Att_DocLog_Down" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="downloaded_at" vertex="1">
+          <mxGeometry height="63" width="124" x="900" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="Conn_DocLog_Down" edge="1" parent="1" source="Att_DocLog_Down" style="endArrow=none;html=1;rounded=0;" target="Ent_DocLog">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rel_Log_Doc" edge="1" parent="1" source="Ent_DocT" style="endArrow=none;html=1;rounded=0;" target="Ent_DocLog" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rel_Log_Ver" edge="1" parent="1" source="Ent_DocVer" style="endArrow=none;html=1;rounded=0;" target="Ent_DocLog" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

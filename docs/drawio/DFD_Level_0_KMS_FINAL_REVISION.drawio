@@ -1,0 +1,357 @@
+<mxfile host="app.diagrams.net" agent="Antigravity" version="22.1.0">
+  <diagram id="DFD-Level-0-KMS-Final" name="DFD Level 0 KMS Final">
+    <mxGraphModel dx="2500" dy="2500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ================================================================================================== -->
+        <!-- ENTITIES (Top Row) -->
+        <!-- ================================================================================================== -->
+        <!-- Admin (Left) -->
+        <mxCell id="Admin" value="Administrator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <!-- Pengurus (Center) -->
+        <mxCell id="Pengurus" value="Pengurus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <!-- Anggota (Right) -->
+        <mxCell id="Anggota" value="Anggota" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+
+
+        <!-- ================================================================================================== -->
+        <!-- PROCESSES (Grid Layout) -->
+        <!-- ================================================================================================== -->
+        
+        <!-- P1.0 Login (Row 1 - Center) -->
+        <mxCell id="P1" value="P 1.0&#xa;Login" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="240" width="140" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- P11.0 Akun (Row 1 - Right) -->
+        <mxCell id="P11" value="P 11.0&#xa;Pengaturan&#xa;Akun" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="240" width="140" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- P9.0 User Mgmt (Row 2 - Left) -->
+        <mxCell id="P9" value="P 9.0&#xa;Manajemen&#xa;Pengguna" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="250" y="500" width="140" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- P2.0 Dashboard (Row 2 - Center) -->
+        <mxCell id="P2" value="P 2.0&#xa;Dashboard" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="500" width="140" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- P3.0 Forum (Row 2 - Right) -->
+        <mxCell id="P3" value="P 3.0&#xa;Forum Diskusi" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="500" width="140" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- P10.0 Role Mgmt (Row 3 - Left) -->
+        <mxCell id="P10" value="P 10.0&#xa;Manajemen&#xa;Peran" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="250" y="800" width="140" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- P5.0 Pembelajaran (Row 3 - Center) -->
+        <mxCell id="P5" value="P 5.0&#xa;Pembelajaran" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="800" width="140" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- P4.0 Topik Saya (Row 3 - Right) -->
+        <mxCell id="P4" value="P 4.0&#xa;Topik Saya" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="800" width="140" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- P7.0 Kategori (Row 4 - Left) -->
+        <mxCell id="P7" value="P 7.0&#xa;Kategori" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1100" width="140" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- P6.0 Template (Row 4 - Center) -->
+        <mxCell id="P6" value="P 6.0&#xa;Dokumen&#xa;Template" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1100" width="140" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- P8.0 Favorit (Row 4 - Right) -->
+        <mxCell id="P8" value="P 8.0&#xa;Favorit Saya" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="1100" width="140" height="140" as="geometry" />
+        </mxCell>
+
+
+        <!-- ================================================================================================== -->
+        <!-- DATA STORES -->
+        <!-- ================================================================================================== -->
+        <mxCell id="DS1" value="D1: Users" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DS2" value="D2: Roles" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="680" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DS3" value="D3: Topics" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="680" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DS4" value="D4: Answers" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="600" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DS5" value="D5: Categories" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1180" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DS6" value="D6: Templates" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1050" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DS7" value="D7: Lessons" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="980" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DS9" value="D9: Quizzes" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="980" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FS" value="File Storage" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="1300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DS8" value="D8: Bookmarks" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="1150" width="100" height="40" as="geometry" />
+        </mxCell>
+
+
+        <!-- ================================================================================================== -->
+        <!-- FLOWS -->
+        <!-- ================================================================================================== -->
+
+        <!-- P1 LOGIN -->
+            <!-- Inputs -->
+            <mxCell id="f_p1_in_admin" value="data_login" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;" edge="1" parent="1" source="Admin" target="P1">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="320" y="180"/><mxPoint x="1170" y="180"/></Array></mxGeometry>
+            </mxCell>
+            <mxCell id="f_p1_in_pengurus" value="data_login" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="Pengurus" target="P1">
+                <mxGeometry relative="1" as="geometry" />
+            </mxCell>
+            <mxCell id="f_p1_in_anggota" value="data_login" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;" edge="1" parent="1" source="Anggota" target="P1">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="2120" y="180"/><mxPoint x="1270" y="180"/></Array></mxGeometry>
+            </mxCell>
+            <!-- Outputs -->
+            <mxCell id="f_p1_out_admin" value="info_login" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;entryX=0.75;entryY=1;" edge="1" parent="1" source="P1" target="Admin">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="360" y="310"/></Array></mxGeometry>
+            </mxCell>
+            <mxCell id="f_p1_out_pengurus" value="info_login" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;entryX=0.25;entryY=1;" edge="1" parent="1" source="P1" target="Pengurus">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1185" y="440"/><mxPoint x="950" y="440"/><mxPoint x="950" y="140"/><mxPoint x="1180" y="140"/></Array></mxGeometry>
+            </mxCell>
+            <mxCell id="f_p1_out_anggota" value="info_login" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;entryX=0.25;entryY=1;" edge="1" parent="1" source="P1" target="Anggota">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="2080" y="310"/></Array></mxGeometry>
+            </mxCell>
+            <!-- DS -->
+            <mxCell id="f_p1_ds1" style="endArrow=classic;html=1;rounded=0;startArrow=classic;" edge="1" parent="1" source="P1" target="DS1">
+                <mxGeometry relative="1" as="geometry" />
+            </mxCell>
+            <mxCell id="f_p1_ds2" style="endArrow=classic;html=1;rounded=0;startArrow=classic;" edge="1" parent="1" source="P1" target="DS2">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1160" y="690"/></Array></mxGeometry>
+            </mxCell>
+
+        <!-- P2 DASHBOARD -->
+            <!-- Inputs (Anggota excluded) -->
+            <mxCell id="f_p2_in_admin" value="data_dasbor" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;" edge="1" parent="1" source="Admin" target="P2">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="280" y="160"/><mxPoint x="880" y="160"/><mxPoint x="880" y="520"/></Array></mxGeometry>
+            </mxCell>
+            <mxCell id="f_p2_in_pengurus" value="data_dasbor" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="Pengurus" target="P2">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1220" y="480"/></Array></mxGeometry>
+            </mxCell>
+            <!-- Outputs -->
+            <mxCell id="f_p2_out_admin" value="info_dasbor" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;entryX=0.5;entryY=1;" edge="1" parent="1" source="P2" target="Admin">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="850" y="570"/><mxPoint x="850" y="460"/><mxPoint x="320" y="460"/></Array></mxGeometry>
+            </mxCell>
+            <mxCell id="f_p2_out_pengurus" value="info_dasbor" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;entryX=0.75;entryY=1;" edge="1" parent="1" source="P2" target="Pengurus">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1255" y="660"/><mxPoint x="1260" y="660"/><mxPoint x="1260" y="120"/></Array></mxGeometry>
+            </mxCell>
+            <mxCell id="f_p2_out_anggota" value="info_dasbor" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;entryX=0.25;entryY=1;" edge="1" parent="1" source="P2" target="Anggota">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1560" y="570"/><mxPoint x="1560" y="460"/><mxPoint x="2080" y="460"/></Array></mxGeometry>
+            </mxCell>
+            <!-- DS -->
+            <mxCell id="f_p2_ds1" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="DS1" target="P2">
+                <mxGeometry relative="1" as="geometry" />
+            </mxCell>
+            <mxCell id="f_p2_ds3" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="DS3" target="P2">
+                <mxGeometry relative="1" as="geometry" />
+            </mxCell>
+             <mxCell id="f_p2_ds6" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="DS6" target="P2">
+                <mxGeometry relative="1" as="geometry" />
+            </mxCell>
+
+        <!-- P3 FORUM -->
+            <!-- Inputs -->
+            <mxCell id="f_p3_in_admin" value="data_forum_diskusi" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;" edge="1" parent="1" source="Admin" target="P3">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="400" y="140"/><mxPoint x="2085" y="140"/></Array></mxGeometry>
+            </mxCell>
+            <mxCell id="f_p3_in_pengurus" value="data_forum_diskusi" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="Pengurus" target="P3">
+                 <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1300" y="160"/><mxPoint x="2120" y="160"/></Array></mxGeometry>
+            </mxCell>
+            <mxCell id="f_p3_in_anggota" value="data_forum_diskusi" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;" edge="1" parent="1" source="Anggota" target="P3">
+                 <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="2155" y="180"/></Array></mxGeometry>
+            </mxCell>
+            <!-- Outputs -->
+            <mxCell id="f_p3_out_admin" value="info_forum_diskusi" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;entryX=0.25;entryY=1;" edge="1" parent="1" source="P3" target="Admin">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1900" y="570"/><mxPoint x="1900" y="440"/><mxPoint x="280" y="440"/></Array></mxGeometry>
+            </mxCell>
+            <mxCell id="f_p3_out_pengurus" value="info_forum_diskusi" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;entryX=0.9;entryY=1;" edge="1" parent="1" source="P3" target="Pengurus">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1880" y="535"/><mxPoint x="1880" y="420"/><mxPoint x="1284" y="420"/></Array></mxGeometry>
+            </mxCell>
+            <mxCell id="f_p3_out_anggota" value="info_forum_diskusi" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;entryX=0.75;entryY=1;" edge="1" parent="1" source="P3" target="Anggota">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="2250" y="570"/><mxPoint x="2250" y="180"/><mxPoint x="2160" y="180"/></Array></mxGeometry>
+            </mxCell>
+            <!-- DS -->
+            <mxCell id="f_p3_ds3" style="endArrow=classic;html=1;rounded=0;startArrow=classic;" edge="1" parent="1" source="P3" target="DS3">
+                <mxGeometry relative="1" as="geometry" />
+            </mxCell>
+            <mxCell id="f_p3_ds4" style="endArrow=classic;html=1;rounded=0;startArrow=classic;" edge="1" parent="1" source="P3" target="DS4">
+                <mxGeometry relative="1" as="geometry" />
+            </mxCell>
+            <mxCell id="f_p3_ds5" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="DS5" target="P3">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="650" y="1200"/><mxPoint x="1860" y="1200"/><mxPoint x="1860" y="590"/></Array></mxGeometry>
+            </mxCell>
+
+
+         <!-- P9 User Mgmt -->
+            <!-- Inputs (Admin Only) -->
+            <mxCell id="f_p9_in_admin" value="data_manajemen_pengguna" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="Admin" target="P9">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="320" y="200"/></Array></mxGeometry>
+            </mxCell>
+            <!-- Outputs (Admin, Pengurus) -->
+            <mxCell id="f_p9_out_admin" value="info_manajemen_pengguna" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;entryX=0;entryY=1;" edge="1" parent="1" source="P9" target="Admin">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="100" y="570"/><mxPoint x="100" y="220"/><mxPoint x="240" y="220"/></Array></mxGeometry>
+            </mxCell>
+            <mxCell id="f_p9_out_pengurus" value="info_manajemen_pengguna" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;entryX=0.4;entryY=1;" edge="1" parent="1" source="P9" target="Pengurus">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="500" y="570"/><mxPoint x="500" y="360"/><mxPoint x="1204" y="360"/></Array></mxGeometry>
+            </mxCell>
+            <!-- DS -->
+            <mxCell id="f_p9_ds1" style="endArrow=classic;html=1;rounded=0;startArrow=classic;" edge="1" parent="1" source="P9" target="DS1">
+                <mxGeometry relative="1" as="geometry" />
+            </mxCell>
+             <mxCell id="f_p9_ds2" style="endArrow=classic;html=1;rounded=0;startArrow=classic;" edge="1" parent="1" source="P9" target="DS2">
+                <mxGeometry relative="1" as="geometry" />
+            </mxCell>
+
+        <!-- P10 Role Mgmt -->
+            <!-- Inputs (Admin Only) -->
+            <mxCell id="f_p10_in_admin" value="data_manajemen_peran" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="Admin" target="P10">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="220" y="220"/><mxPoint x="220" y="780"/><mxPoint x="320" y="780"/></Array></mxGeometry>
+            </mxCell>
+             <!-- Outputs (Admin Only) -->
+            <mxCell id="f_p10_out_admin" value="info_manajemen_peran" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;entryX=0;entryY=0.75;" edge="1" parent="1" source="P10" target="Admin">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="285" y="760"/><mxPoint x="40" y="760"/><mxPoint x="40" y="100"/></Array></mxGeometry>
+            </mxCell>
+             <!-- DS -->
+            <mxCell id="f_p10_ds2" style="endArrow=classic;html=1;rounded=0;startArrow=classic;" edge="1" parent="1" source="P10" target="DS2">
+                <mxGeometry relative="1" as="geometry" />
+            </mxCell>
+
+        <!-- P4 Topik Saya -->
+            <!-- Inputs -->
+            <mxCell id="f_p4_in_admin" value="data_topik_saya" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;" edge="1" parent="1" source="Admin" target="P4">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="260" y="120"/><mxPoint x="2000" y="120"/><mxPoint x="2000" y="820"/></Array></mxGeometry>
+            </mxCell>
+             <mxCell id="f_p4_in_pengurus" value="data_topik_saya" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;" edge="1" parent="1" source="Pengurus" target="P4">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1270" y="120"/><mxPoint x="2020" y="120"/><mxPoint x="2020" y="780"/><mxPoint x="2085" y="780"/></Array></mxGeometry>
+            </mxCell>
+            <mxCell id="f_p4_in_anggota" value="data_topik_saya" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="Anggota" target="P4">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="2190" y="140"/><mxPoint x="2190" y="700"/><mxPoint x="2120" y="700"/></Array></mxGeometry>
+            </mxCell>
+            <!-- Outputs -->
+            <mxCell id="f_p4_out_anggota" value="info_topik_saya" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;entryX=1;entryY=0.75;" edge="1" parent="1" source="P4" target="Anggota">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="2280" y="870"/><mxPoint x="2280" y="100"/></Array></mxGeometry>
+            </mxCell>
+            <mxCell id="f_p4_out_admin" value="info_topik_saya" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;entryX=0.25;entryY=1;" edge="1" parent="1" source="P4" target="Admin">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1880" y="920"/><mxPoint x="1880" y="380"/><mxPoint x="280" y="380"/></Array></mxGeometry>
+            </mxCell>
+             <!-- DS -->
+             <mxCell id="f_p4_ds3" style="endArrow=classic;html=1;rounded=0;startArrow=classic;" edge="1" parent="1" source="P4" target="DS3">
+                <mxGeometry relative="1" as="geometry" />
+            </mxCell>
+
+        <!-- P5 Learning -->
+            <!-- Inputs -->
+            <mxCell id="f_p5_in_admin" value="data_pembelajaran" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;" edge="1" parent="1" source="Admin" target="P5">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="380" y="240"/><mxPoint x="980" y="240"/><mxPoint x="980" y="780"/><mxPoint x="1170" y="780"/></Array></mxGeometry>
+            </mxCell>
+            <mxCell id="f_p5_in_pengurus" value="data_pembelajaran" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="Pengurus" target="P5">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1320" y="120"/><mxPoint x="1500" y="120"/><mxPoint x="1500" y="750"/><mxPoint x="1220" y="750"/></Array></mxGeometry>
+            </mxCell>
+            <mxCell id="f_p5_in_anggota" value="data_pembelajaran" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;" edge="1" parent="1" source="Anggota" target="P5">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="2100" y="200"/><mxPoint x="1550" y="200"/><mxPoint x="1550" y="780"/><mxPoint x="1255" y="780"/></Array></mxGeometry>
+            </mxCell>
+            <!-- Outputs -->
+            <mxCell id="f_p5_out_anggota" value="info_pembelajaran" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;entryX=0.6;entryY=1;" edge="1" parent="1" source="P5" target="Anggota">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1450" y="870"/><mxPoint x="1450" y="440"/><mxPoint x="2136" y="440"/></Array></mxGeometry>
+            </mxCell>
+             <!-- DS -->
+            <mxCell id="f_p5_ds7" style="endArrow=classic;html=1;rounded=0;startArrow=classic;" edge="1" parent="1" source="P5" target="DS7">
+                <mxGeometry relative="1" as="geometry" />
+            </mxCell>
+            <mxCell id="f_p5_ds9" style="endArrow=classic;html=1;rounded=0;startArrow=classic;" edge="1" parent="1" source="P5" target="DS9">
+                <mxGeometry relative="1" as="geometry" />
+            </mxCell>
+
+        <!-- P6 Templates -->
+             <!-- Inputs (Anggota excluded) -->
+            <mxCell id="f_p6_in_admin" value="data_dokumen_template" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;" edge="1" parent="1" source="Admin" target="P6">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="340" y="140"/><mxPoint x="800" y="140"/><mxPoint x="800" y="1080"/><mxPoint x="1170" y="1080"/></Array></mxGeometry>
+            </mxCell>
+            <!-- Outputs -->
+             <mxCell id="f_p6_out_anggota" value="info_dokumen_template" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;entryX=0.9;entryY=1;" edge="1" parent="1" source="P6" target="Anggota">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1540" y="1170"/><mxPoint x="2350" y="1170"/><mxPoint x="2350" y="220"/><mxPoint x="2184" y="220"/></Array></mxGeometry>
+            </mxCell>
+            <!-- DS -->
+             <mxCell id="f_p6_ds6" style="endArrow=classic;html=1;rounded=0;startArrow=classic;" edge="1" parent="1" source="P6" target="DS6">
+                <mxGeometry relative="1" as="geometry" />
+            </mxCell>
+            <mxCell id="f_p6_fs" style="endArrow=classic;html=1;rounded=0;startArrow=classic;" edge="1" parent="1" source="P6" target="FS">
+                <mxGeometry relative="1" as="geometry" />
+            </mxCell>
+
+         <!-- P7 Kategori -->
+            <!-- Inputs (Anggota excluded) -->
+            <mxCell id="f_p7_in_admin" value="data_kategori" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="Admin" target="P7">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="180" y="120"/><mxPoint x="180" y="1050"/><mxPoint x="320" y="1050"/></Array></mxGeometry>
+            </mxCell>
+            <!-- Outputs -->
+            <mxCell id="f_p7_out_admin" value="info_kategori" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="P7" target="Admin">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="80" y="1170"/><mxPoint x="80" y="80"/></Array></mxGeometry>
+            </mxCell>
+             <!-- DS -->
+             <mxCell id="f_p7_ds5" style="endArrow=classic;html=1;rounded=0;startArrow=classic;" edge="1" parent="1" source="P7" target="DS5">
+                <mxGeometry relative="1" as="geometry" />
+            </mxCell>
+
+         <!-- P8 Favorit -->
+            <!-- Inputs (EXCLUDED FOR ALL) -->
+            <!-- Outputs -->
+            <mxCell id="f_p8_out_anggota" value="info_favorit_saya" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;entryX=1;entryY=1;" edge="1" parent="1" source="P8" target="Anggota">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="2120" y="1040"/><mxPoint x="2220" y="1040"/><mxPoint x="2220" y="300"/><mxPoint x="2200" y="300"/></Array></mxGeometry>
+            </mxCell>
+            <!-- DS -->
+            <mxCell id="f_p8_ds8" style="endArrow=classic;html=1;rounded=0;startArrow=classic;" edge="1" parent="1" source="P8" target="DS8">
+                <mxGeometry relative="1" as="geometry" />
+            </mxCell>
+             <mxCell id="f_p8_ds3" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;" edge="1" parent="1" source="DS3" target="P8">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1650" y="1040"/><mxPoint x="2080" y="1040"/></Array></mxGeometry>
+            </mxCell>
+
+        <!-- P11 Settings -->
+            <!-- Inputs -->
+            <mxCell id="f_p11_in_anggota" value="data_pengaturan_akun" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="Anggota" target="P11">
+                 <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="2110" y="200"/><mxPoint x="1720" y="200"/></Array></mxGeometry>
+            </mxCell>
+            <!-- Outputs -->
+            <mxCell id="f_p11_out_anggota" value="info_pengaturan_akun" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;entryX=0.5;entryY=1;" edge="1" parent="1" source="P11" target="Anggota">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1950" y="275"/><mxPoint x="1950" y="200"/><mxPoint x="2120" y="200"/></Array></mxGeometry>
+            </mxCell>
+             <!-- DS -->
+             <mxCell id="f_p11_ds1" style="endArrow=classic;html=1;rounded=0;startArrow=classic;" edge="1" parent="1" source="P11" target="DS1">
+                <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1720" y="400"/></Array></mxGeometry>
+            </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

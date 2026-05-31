@@ -1,0 +1,268 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram id="P4-TopikSaya" name="P 4.0 Topik Saya">
+    <mxGraphModel dx="356" dy="156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Admin" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="👨‍💼 Administrator" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pengurus" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="👩‍💼 Pengurus" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Anggota" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="👤 Anggota" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P41" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="4.1&lt;br&gt;Request&lt;br&gt;topik saya" vertex="1">
+          <mxGeometry height="100" width="100" x="150" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="P43" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="4.3&lt;br&gt;Edit&lt;br&gt;topik saya" vertex="1">
+          <mxGeometry height="100" width="100" x="350" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="P45" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="4.5&lt;br&gt;Delete&lt;br&gt;topik saya" vertex="1">
+          <mxGeometry height="100" width="100" x="550" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="P42" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="4.2&lt;br&gt;Query&lt;br&gt;topik user" vertex="1">
+          <mxGeometry height="100" width="100" x="150" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="P44" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="4.4&lt;br&gt;Update&lt;br&gt;topik saya" vertex="1">
+          <mxGeometry height="100" width="100" x="350" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="P46" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="4.6&lt;br&gt;Tampilkan&lt;br&gt;daftar topik saya" vertex="1">
+          <mxGeometry height="100" width="100" x="350" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="DS3" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" value="D3: Database Topics&lt;br&gt;(topics)" vertex="1">
+          <mxGeometry height="55" width="160" x="550" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="e1_1" edge="1" parent="1" source="Admin" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;entryX=0.213;entryY=0.058;entryDx=0;entryDy=0;entryPerimeter=0;" target="P41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qbZ3ka0kXHQKJyL6ZcnO-1" connectable="0" parent="e1_1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="request_topik_saya" vertex="1">
+          <mxGeometry relative="1" x="-0.2187" as="geometry">
+            <mxPoint x="-21" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1_2" edge="1" parent="1" source="Pengurus" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;entryX=0.613;entryY=0.005;entryPerimeter=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="P41" value="request_topik_saya">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="85" />
+              <mxPoint x="330" y="140" />
+              <mxPoint x="210" y="140" />
+            </Array>
+            <mxPoint x="335" y="100" as="sourcePoint" />
+            <mxPoint x="220" y="206" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1_3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;entryX=1;entryY=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="P41" value="">
+          <mxGeometry relative="1" x="0.1135" y="-12" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="540" y="80" />
+              <mxPoint x="480" y="80" />
+              <mxPoint x="480" y="130" />
+              <mxPoint x="340" y="130" />
+              <mxPoint x="340" y="160" />
+              <mxPoint x="235" y="160" />
+            </Array>
+            <mxPoint x="540" y="40" as="sourcePoint" />
+            <mxPoint x="235.3553390593304" y="179.6446609406696" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qbZ3ka0kXHQKJyL6ZcnO-6" connectable="0" parent="e1_3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="request_topik_saya" vertex="1">
+          <mxGeometry relative="1" x="0.5032" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2_1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;entryX=0.164;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" target="P43" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="120" />
+              <mxPoint x="366" y="120" />
+            </Array>
+            <mxPoint x="215" y="100" as="sourcePoint" />
+            <mxPoint x="349.64466094067257" y="214.64466094067257" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qbZ3ka0kXHQKJyL6ZcnO-7" connectable="0" parent="e2_1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="data_edit_topik" vertex="1">
+          <mxGeometry relative="1" x="-0.4599" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2_2" edge="1" parent="1" source="Pengurus" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="P43" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qbZ3ka0kXHQKJyL6ZcnO-8" connectable="0" parent="e2_2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" value="data_edit_topik" vertex="1">
+          <mxGeometry relative="1" x="0.4552" y="-1" as="geometry">
+            <mxPoint x="1" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2_3" edge="1" parent="1" source="Anggota" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=1;entryY=0;exitDx=0;exitDy=0;" target="P43" value="">
+          <mxGeometry relative="1" x="0.0013" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="600" y="140" />
+              <mxPoint x="435" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qbZ3ka0kXHQKJyL6ZcnO-10" connectable="0" parent="e2_3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="data_edit_topik" vertex="1">
+          <mxGeometry relative="1" x="-0.3412" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3_1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;entryX=0.046;entryY=0.3;entryPerimeter=0;entryDx=0;entryDy=0;" target="P45" value="data_delete_topik">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="60" />
+              <mxPoint x="300" y="30" />
+              <mxPoint x="500" y="30" />
+              <mxPoint x="500" y="230" />
+            </Array>
+            <mxPoint x="260" y="60" as="sourcePoint" />
+            <mxPoint x="563" y="203" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3_2" edge="1" parent="1" source="Pengurus" style="endArrow=classic;html=1;rounded=0;exitX=0.911;exitY=1.01;entryX=0.6;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="P45" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="120" />
+              <mxPoint x="610" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qbZ3ka0kXHQKJyL6ZcnO-9" connectable="0" parent="e3_2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="data_delete_topik" vertex="1">
+          <mxGeometry relative="1" x="-0.2603" y="3" as="geometry">
+            <mxPoint x="16" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3_3" edge="1" parent="1" source="Anggota" style="endArrow=classic;html=1;rounded=0;exitX=0.799;exitY=0.995;entryX=0.881;entryY=0.165;entryPerimeter=0;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;" target="P45" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="636" y="120" />
+              <mxPoint x="660" y="120" />
+              <mxPoint x="660" y="217" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qbZ3ka0kXHQKJyL6ZcnO-5" connectable="0" parent="e3_3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="data_delete_topik" vertex="1">
+          <mxGeometry relative="1" x="0.4022" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="P41" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="P42" value="request">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="P43" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="P44" value="data_edit">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="P44" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" target="P42" value="topik_updated">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="P44" style="endArrow=classic;html=1;rounded=0;entryX=0.012;entryY=0.447;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.982;exitY=0.405;exitDx=0;exitDy=0;exitPerimeter=0;" target="DS3" value="update_topic">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="441" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8_1" edge="1" parent="1" source="P45" style="endArrow=classic;html=1;rounded=0;exitX=0.574;exitY=0.997;entryX=0.365;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="DS3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qbZ3ka0kXHQKJyL6ZcnO-3" connectable="0" parent="e8_1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="delete_request" vertex="1">
+          <mxGeometry relative="1" x="-0.0713" y="1" as="geometry">
+            <mxPoint x="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8_2" edge="1" parent="1" source="P45" style="endArrow=classic;html=1;rounded=0;exitX=0.793;exitY=0.902;entryX=0.939;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="DS3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="320" />
+              <mxPoint x="700" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qbZ3ka0kXHQKJyL6ZcnO-4" connectable="0" parent="e8_2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="delete_topic" vertex="1">
+          <mxGeometry relative="1" x="-0.3058" y="1" as="geometry">
+            <mxPoint x="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="P45" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0.93;exitPerimeter=0;entryX=1;entryY=0.25;" target="P42" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="575" y="380" />
+              <mxPoint x="270" y="380" />
+              <mxPoint x="270" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qbZ3ka0kXHQKJyL6ZcnO-2" connectable="0" parent="e9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="topik_deleted" vertex="1">
+          <mxGeometry relative="1" x="-0.2583" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="P42" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0.93;exitPerimeter=0;" value="read_user_topics">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="225" y="540" />
+              <mxPoint x="520" y="540" />
+              <mxPoint x="520" y="460" />
+            </Array>
+            <mxPoint x="550" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="DS3" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.191;entryX=1;entryY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" target="P42" value="user_topics">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="426" />
+              <mxPoint x="460" y="520" />
+              <mxPoint x="270" y="520" />
+              <mxPoint x="270" y="472" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="P42" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.033;entryY=0.303;entryDx=0;entryDy=0;entryPerimeter=0;" target="P46" value="topik_data">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="DS3" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.993;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;" target="P46" value="topic_data">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14_1" edge="1" parent="1" source="P46" style="endArrow=classic;html=1;rounded=0;exitX=0.001;exitY=0.454;entryX=0;entryY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="Admin" value="list_topik_saya">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="745" />
+              <mxPoint x="70" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14_2" edge="1" parent="1" source="P46" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" target="Anggota" value="list_topik_saya">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="750" />
+              <mxPoint x="730" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14_3" edge="1" parent="1" source="P46" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="Pengurus" value="list_topik_saya">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="850" />
+              <mxPoint x="950" y="850" />
+              <mxPoint x="950" y="150" />
+              <mxPoint x="430" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

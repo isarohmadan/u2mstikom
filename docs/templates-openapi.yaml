@@ -1,0 +1,64 @@
+openapi: 3.0.3
+info:
+  title: KMS Templates API
+  version: 1.0.0
+paths:
+  /api/templates:
+    get:
+      summary: List templates
+      responses:
+        "200":
+          description: OK
+    post:
+      summary: Create template
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                description:
+                  type: string
+                file:
+                  type: string
+                  format: binary
+      responses:
+        "201":
+          description: Created
+  /api/templates/{id}:
+    get:
+      summary: Show template with versions
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: OK
+  /api/templates/{id}/versions:
+    post:
+      summary: Upload new version
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                file:
+                  type: string
+                  format: binary
+      responses:
+        "200":
+          description: OK

@@ -1,0 +1,298 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram id="P7-Kategori" name="P 7.0 Kategori">
+    <mxGraphModel dx="1617" dy="225" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Admin" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Administrator" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pengurus" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Pengurus" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Anggota" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Anggota" vertex="1">
+          <mxGeometry height="60" width="120" x="800" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P71" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="7.1&lt;br&gt;Input data&lt;br&gt;kategori" vertex="1">
+          <mxGeometry height="100" width="100" x="150" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="P72" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="7.2&lt;br&gt;Validasi data&lt;br&gt;kategori" vertex="1">
+          <mxGeometry height="100" width="100" x="150" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="P73" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="7.3&lt;br&gt;Cek duplikasi&lt;br&gt;kategori" vertex="1">
+          <mxGeometry height="100" width="100" x="150" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="P74" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="7.4&lt;br&gt;Simpan data&lt;br&gt;kategori" vertex="1">
+          <mxGeometry height="100" width="100" x="150" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="P75" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="7.5&lt;br&gt;Update data&lt;br&gt;kategori" vertex="1">
+          <mxGeometry height="100" width="100" x="450" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="P76" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="7.6&lt;br&gt;Delete data&lt;br&gt;kategori" vertex="1">
+          <mxGeometry height="100" width="100" x="700" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="P77" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="7.7&lt;br&gt;Tampilkan&lt;br&gt;daftar kategori" vertex="1">
+          <mxGeometry height="100" width="100" x="450" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="DS5" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" value="D5: Database Categories&lt;br&gt;(categories)" vertex="1">
+          <mxGeometry height="60" width="180" x="410" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="Admin" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;entryX=0.5;entryY=0;" target="P71" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="160" />
+              <mxPoint x="200" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3E5YiE_UMjt5mLNYj5W_-7" connectable="0" parent="e1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="data_kategori" vertex="1">
+          <mxGeometry relative="1" x="0.1375" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="Pengurus" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;entryX=1;entryY=0;" target="P71" value="data_kategori">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="170" />
+              <mxPoint x="235" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="Admin" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;entryX=0.31;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" target="P75" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="150" />
+              <mxPoint x="480" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3E5YiE_UMjt5mLNYj5W_-6" connectable="0" parent="e3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="data_update_kategori" vertex="1">
+          <mxGeometry relative="1" x="-0.2991" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="Pengurus" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="P75" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="250" />
+              <mxPoint x="500" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3E5YiE_UMjt5mLNYj5W_-5" connectable="0" parent="e4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" value="data_update_kategori" vertex="1">
+          <mxGeometry relative="1" x="-0.1584" as="geometry">
+            <mxPoint y="34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="Admin" style="endArrow=classic;html=1;rounded=0;exitX=0.9;exitY=1;entryX=0.036;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;" target="P76" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="188" y="130" />
+              <mxPoint x="640" y="130" />
+              <mxPoint x="640" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3E5YiE_UMjt5mLNYj5W_-10" connectable="0" parent="e5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="data_delete_kategori" vertex="1">
+          <mxGeometry relative="1" x="-0.5333" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="Pengurus" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;entryX=0.5;entryY=0;" target="P76" value="data_delete_kategori">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="180" />
+              <mxPoint x="750" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="Admin" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="P77" value="info_kategori">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="70" />
+              <mxPoint x="40" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="Pengurus" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="P77" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="85" />
+              <mxPoint x="670" y="875" />
+            </Array>
+            <mxPoint x="548" y="110" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3E5YiE_UMjt5mLNYj5W_-13" connectable="0" parent="e8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" value="info_kategori" vertex="1">
+          <mxGeometry relative="1" x="-0.0469" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eAnggotaIn" edge="1" parent="1" source="Anggota" style="endArrow=classic;html=1;rounded=0;exitX=0.391;exitY=1.003;entryX=0.972;entryY=0.686;entryDx=0;entryDy=0;entryPerimeter=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="P77" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="919" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3E5YiE_UMjt5mLNYj5W_-16" connectable="0" parent="eAnggotaIn" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" value="info_kategori" vertex="1">
+          <mxGeometry relative="1" x="-0.0423" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="P71" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="P72" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3E5YiE_UMjt5mLNYj5W_-3" connectable="0" parent="e9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="data_kategori" vertex="1">
+          <mxGeometry relative="1" x="-0.1653" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="P72" style="endArrow=classic;html=1;rounded=0;exitX=0.073;exitY=0.242;entryX=0;entryY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" target="P71" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="375" />
+              <mxPoint x="110" y="272" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3E5YiE_UMjt5mLNYj5W_-1" connectable="0" parent="e10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="pesan_error" vertex="1">
+          <mxGeometry relative="1" x="-0.003" y="-2" as="geometry">
+            <mxPoint x="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="P72" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="P73" value="data_valid">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.07;exitY=0.25;entryX=0;entryY=0.5;exitPerimeter=0;entryDx=0;entryDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="527" />
+              <mxPoint x="80" y="252" />
+            </Array>
+            <mxPoint x="157" y="527" as="sourcePoint" />
+            <mxPoint x="150" y="252" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3E5YiE_UMjt5mLNYj5W_-4" connectable="0" parent="e12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="nama_terpakai" vertex="1">
+          <mxGeometry relative="1" x="0.0032" y="-3" as="geometry">
+            <mxPoint x="7" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="P73" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="P74" value="nama_tersedia">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="P73" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;entryX=0;entryY=0.25;" target="DS5" value="cek_nama">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="550" />
+              <mxPoint x="360" y="565" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="P74" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;entryX=0;entryY=0.75;" target="DS5" value="write_category">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="700" />
+              <mxPoint x="320" y="595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" source="P74" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0;entryY=0.25;" target="P77" value="kategori_baru">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="875" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="P75" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="DS5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3E5YiE_UMjt5mLNYj5W_-14" connectable="0" parent="e17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="update_category" vertex="1">
+          <mxGeometry relative="1" x="0.1853" y="-2" as="geometry">
+            <mxPoint x="2" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e18" edge="1" parent="1" source="P75" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;entryX=0.5;entryY=0;" target="P77" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="490" />
+              <mxPoint x="650" y="490" />
+              <mxPoint x="650" y="800" />
+              <mxPoint x="500" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3E5YiE_UMjt5mLNYj5W_-11" connectable="0" parent="e18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" value="kategori_updated" vertex="1">
+          <mxGeometry relative="1" x="0.0962" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e19" edge="1" parent="1" source="P76" style="endArrow=classic;html=1;rounded=0;exitX=0.042;exitY=0.699;entryX=1;entryY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="DS5" value="">
+          <mxGeometry relative="1" x="-0.0013" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="690" y="420" />
+              <mxPoint x="690" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3E5YiE_UMjt5mLNYj5W_-12" connectable="0" parent="e19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" value="delete_category" vertex="1">
+          <mxGeometry relative="1" x="-0.1322" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e20" edge="1" parent="1" source="P76" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.75;entryY=0;" target="P77" value="kategori_deleted">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="820" />
+              <mxPoint x="522" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e21" edge="1" parent="1" source="DS5" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="P77" value="category_data">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eList1" edge="1" parent="1" source="P77" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;entryX=0.1;entryY=1;" target="Admin" value="list_kategori">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="925" />
+              <mxPoint x="20" y="120" />
+              <mxPoint x="92" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eList2" edge="1" parent="1" source="P77" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;entryX=1;entryY=1;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="Pengurus" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="899" />
+              <mxPoint x="810" y="120" />
+              <mxPoint x="560" y="120" />
+            </Array>
+            <mxPoint x="562" y="899" as="sourcePoint" />
+            <mxPoint x="512" y="99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3E5YiE_UMjt5mLNYj5W_-15" connectable="0" parent="eList2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" value="list_kategori" vertex="1">
+          <mxGeometry relative="1" x="-0.0361" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eList3" edge="1" parent="1" source="P77" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;entryX=0.536;entryY=0.995;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="Anggota" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="935" />
+            </Array>
+            <mxPoint x="547.3613595499957" y="932.3606797749978" as="sourcePoint" />
+            <mxPoint x="862.64" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3E5YiE_UMjt5mLNYj5W_-17" connectable="0" parent="eList3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" value="list_kategori" vertex="1">
+          <mxGeometry relative="1" x="0.1584" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
